@@ -1,0 +1,95 @@
+.mask{
+    width: 100% ;
+    height: 100vh ;
+    position: relative ;
+}
+
+.intro-img{
+    width: 100% ;
+    height: 100% ;
+    background-size: cover ;
+    background-position: center ;
+    object-fit: cover ;
+}
+
+.mask::after{
+    content: "" ;
+    width: 100% ;
+    height: 100% ;
+    position: absolute ;
+    top: 0 ;
+    left: 0 ;
+    background-color: #000 ;
+    opacity: 0.2 ;
+}
+
+.hero{
+    width: 100% ;
+    height: 100% ;
+}
+
+.hero .content{
+    position: absolute ;
+    transform: translate(-50%, -50%) ;
+    top: 45% ;
+    left: 50% ;
+    text-align: center ;
+}
+
+.hero .content h1{
+    font-size: 3rem ;
+}
+
+.hero .content p{
+    font-size: 1.8rem ;
+    padding: 0.6rem 0 2rem ;
+}
+
+.content .Rishab-img-container{
+    max-width: 175px ;
+    max-height: 175px ;
+    border: 5px solid gray ;
+    border-radius: 50% ;
+    overflow: hidden ;
+    margin-left: 25% ;
+    margin-bottom: 0.8rem ;
+}
+
+.content .Rishab-img{
+    width: 100% ;
+    height: 100% ;
+    object-fit: cover ;
+    margin-top: -15px ;
+}
+
+.content .btn{
+    margin: 1rem 0.2rem ;
+}
+
+.Link-btns{
+    padding-top: 2.5rem ;
+}
+
+
+@media screen and (max-width : 640px){
+    .hero .content h1{
+        font-size: 2rem ;
+    }
+    
+    .hero .content p{
+        font-size: 1.3rem ;
+    }
+
+    .content .Rishab-img-container{
+        max-width: 150px ;
+        max-height: 150px ;
+    }
+
+    .content .btn{
+        font-size: 0.9rem ;
+    }
+
+    .Link-btns{
+        padding-top: 1.7rem ;
+    }
+}
