@@ -25,7 +25,7 @@ const WorkCard = (props) => {
 
     return (
         <div className = { `project-card ${ props.lang }` } >
-            <img src = { props.imgsrc } alt = "image" />
+            <img src = { props.imgsrc } alt = "project-title-card" />
             
             <h2 className = "project-title" >
                 { props.title }

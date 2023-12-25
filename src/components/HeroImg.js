@@ -27,7 +27,6 @@ const HeroImg = () => {
 
   useEffect( () => {
     const type = () => {
-      const currentPhrase = phrases[ phraseIndex ] ;
       const fullText = phrases[ phraseIndex % phrases.length ] ;
       setText(
         isDeleting
