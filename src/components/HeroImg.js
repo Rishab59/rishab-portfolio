@@ -1,6 +1,6 @@
 import "./HeroImgStyles.css" ;
 
-import React, { useEffect, useState } from "react" ;
+import React, { useEffect, useMemo, useState } from "react" ;
 import { Link, NavLink } from "react-router-dom" ;
 
 import HeroBg from "../assets/herobg.png" ;
@@ -8,7 +8,7 @@ import RishabImg from "../assets/RishabImage.png" ;
 
 
 const HeroImg = () => {
-  const phrases = [
+  const phrases = useMemo(() => [
     "Web Developer",
     "Native Developer",
     "Full Stack Developer",
@@ -16,7 +16,7 @@ const HeroImg = () => {
     "Passionate Coder",
     "I'm interested in Java",
     "I'm interested in Django",
-  ] ;
+  ], [] ) ;
 
   const [ phraseIndex, setPhraseIndex ] = useState(0) ;
   const [ text, setText ] = useState('') ;
