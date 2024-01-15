@@ -26,7 +26,7 @@ const NavBar = () => {
   
   return (
     <div className = { navbgcolor ? "header header-bg" : "header" } >
-      <Link to = "/" className = "links" >
+      <Link to = "/">
         <h1>Rishab Portfolio</h1>
       </Link>
 
@@ -47,7 +47,7 @@ const NavBar = () => {
           </Link>
         </li>
         <li>
-          <Link to = "/contact" className = "links" >
+          <Link to = "/contact" className = "links contact" >
             Contact
           </Link>
         </li>

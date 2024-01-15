@@ -10,7 +10,7 @@ import { SiHackerrank } from "react-icons/si" ;
 const Footer = () => {
     return (
         <div className = "footer" >
-            <div className = "footer-container" style = {{ marginLeft: ( window.innerWidth <= 640 ) ? '-2rem' : 'auto' }} >
+            <div className = "footer-container" style = {{ marginLeft: ( window.innerWidth <= 640 ) ? '-2rem' : '4rem' }} >
                 <div className = "footer-left" >
                     <div className = "location" >
                         <FaHome size = { 23 } style = {{ color: "#fff", marginRight: "2rem" }} />
@@ -46,7 +46,11 @@ const Footer = () => {
                     <h4>About me</h4>
 
                     <p className = "content" >
-                        I'm Rishab.H, current pursing my BE-CSE degree in <br /><NavLink to = "https://panimalar.ac.in/" className = "links" target = "_blank" >Panimalar Engineering College</NavLink>, Chennai.
+                        I'm&nbsp;
+                        <NavLink to = "https://www.linkedin.com/in/rishab-h-656b97224/" target = "_blank" className = "links" >
+                            Rishab.H
+                        </NavLink>
+                        , current pursing my BE-CSE degree in <br /><NavLink to = "https://panimalar.ac.in/" className = "links" target = "_blank" >Panimalar Engineering College</NavLink>, Chennai.
                     </p>
                     <p className = "content" >
                         I'm one of the leads in <NavLink to = "https://codersforum.netlify.app/" className = "links" target = "_blank" >Coders Forum</NavLink>, a technical club in my college.
@@ -71,6 +75,18 @@ const Footer = () => {
                             <FaInstagram size = { 30 } style = {{ color: "#fff", marginRight: "2rem" }} />
                         </NavLink>
                     </div>
+                </div>
+            </div>
+
+            <div className = "footer-bottom">
+                <div className = "info">
+                    <p>
+                        This site is developed by&nbsp;
+                        <NavLink to = "https://www.linkedin.com/in/rishab-h-656b97224/" target = "_blank" className = "links" >
+                            Rishab.H
+                        </NavLink>
+                        &nbsp;using React JS
+                    </p>
                 </div>
             </div>
         </div>

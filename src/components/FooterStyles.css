@@ -59,6 +59,17 @@
     font-size: 1.1rem ;
 }
 
+.footer-bottom{
+    display: flex ;
+    justify-content: space-between ;
+    align-items: flex-end ;
+}
+
+.info{
+    margin: 6rem -2.5rem -2.5rem auto ;
+    font-size: 1.15rem ;
+}
+
 
 @media screen and (max-width: 640px){
     .footer-container{
@@ -77,5 +88,16 @@
 
     .footer-right p{
         font-size: 1rem ;
+    }
+
+    .footer-bottom{
+        flex-direction: column ;
+        align-items: center ;
+    }    
+
+    .info{
+        margin-left: -1.5rem  ;
+        margin-top: 2rem ;
+        width: 220px ;
     }
 }

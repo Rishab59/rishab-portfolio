@@ -56,11 +56,16 @@ const HeroImg = () => {
 
       <div className = "content" >
         <div className = "Rishab-img-container" >
-          <img className = "Rishab-img" src = { RishabImg } alt = "RishabImage" />
+          <NavLink to = "https://www.linkedin.com/in/rishab-h-656b97224/" target = "_blank">
+            <img className = "Rishab-img" src = { RishabImg } alt = "RishabImage" />
+          </NavLink>
         </div>
 
         <h1>
-          Hi I'm <NavLink to = "https://www.github.com/Rishab59" className = "links" target = "_blank" >Rishab.H</NavLink>
+          Hi ! , I'm&nbsp;
+          <NavLink to = "https://www.linkedin.com/in/rishab-h-656b97224/" target = "_blank" className = "links" >
+            Rishab.H
+          </NavLink>
         </h1>
 
         <p style = {{ height: `${pTagHeight}px` }} >

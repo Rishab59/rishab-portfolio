@@ -16,7 +16,8 @@ import ToDoListImg from "../assets/projects/ToDoListImage.png" ;
 import Cal2UsingJSImg from "../assets/projects/CalculatorImage2.png" ;
 import SuperMarketBillingSysUsingCppImg from "../assets/projects/SuperMarketBillingSystemUsingCppImage.png" ;
 import NextDateCalUsingCImg from "../assets/projects/NextDateCalculatorUsingCImage.png" ;
-import HorizontalScrollTextUsingCImg from "../assets/projects/HorizontalScrollTextUsingCImage.png";
+import HorizontalScrollTextUsingCImg from "../assets/projects/HorizontalScrollTextUsingCImage.png" ;
+import QuizAppJSImg from "../assets/projects/QuizAppByRishabUsingJS.png" ;
 
 
 const ProjectCardData = [
@@ -35,6 +36,14 @@ const ProjectCardData = [
         content: "This is a Notepad Project developed using Java Swing.",
         liveoutput: "",
         sourcecode: "https://github.com/Rishab59/NotepadUsingJava", 
+    },
+    {
+        imgsrc: QuizAppJSImg,
+        lang: "JS",
+        title: "Quiz App",
+        content: "This is a Quiz App Web Project developed using JS for an intercollege event.",
+        liveoutput: "https://rishab59.github.io/QuizAppByRishab/",
+        sourcecode: "https://github.com/Rishab59/QuizAppByRishab", 
     },
     {
         imgsrc: MusicPlayerImg,
