@@ -70,4 +70,8 @@
         display: initial ;
         padding-right: 1rem ;
     }
+
+    .contact{ 
+        margin-right: 0 ;
+    }
 }

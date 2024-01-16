@@ -57,7 +57,7 @@
     z-index: 5 ;
 }
 
-.bottom-row{
+.second-row{
     width: 100% ;
     text-align: center ;
     padding: 4rem 0 2rem 0 ;
@@ -66,29 +66,37 @@
     align-items: center ;
 }
 
+
 .skills{
     text-align: center ;
     width: 100% ;
-    margin-bottom: 5rem ;
+    margin-bottom: 2rem ;
 }
 
 .skills h1{
-    margin-bottom: 7rem ;
+    margin-bottom: 4rem ;
 }
 
 .skills-left, .skills-right{
-    width: 50% ;
-    display: inline-block ;
-    text-align: center ;
+    width: 30% ;
+    text-align: left ;
     position: relative ;
 }
 
 .skills-left{
-    text-align: left ;
+    float: left ;
+    margin-left: 20rem ;
 }
 
 .skills-right{
-    text-align: left ;
+    float: right ;
+    margin-right: 8rem ;
+}
+
+.skills-heading{
+    position: relative ;
+    margin-bottom: 1rem ;
+    font-size: 1.7rem ;
 }
 
 .skills-left-p, .skills-right-p{
@@ -96,14 +104,10 @@
     align-items: left ;
     justify-content: left ;
     flex-direction: column ;
-    position: absolute ;
-    top: 50% ;
-    left: 40% ;
-    transform: translate(0, -50%) ;
-    margin-bottom: 5rem ;
 }
 
 .skills-left-p p, .skills-right-p p{
+    font-size: 1.1rem ;
     text-align: left ;
     margin: 5px 0 ;
 }
@@ -113,8 +117,40 @@
     margin: 11px 0 ;
 }
 
-@media screen and (max-width: 640px) {
-    .about .top-row {
+.third-row{
+    text-align: center ;
+    width: 100% ;
+}
+
+.hobbies h1{
+    margin-bottom: 2.5rem ;
+}
+
+.hobbies-content ul{
+    list-style: none ;
+    margin-left: 22rem ;
+    font-size: 1.3rem ;
+}
+
+.hobbies-content ul li{
+    position: relative ;
+    color: #fff ;
+    text-align: left ;
+    padding-bottom: 1rem ;
+}
+
+.hobbies-content ul li:before {
+    content: "\2022" ; /* Unicode character for a bullet point */
+    color: gold ;
+    font-size: 2.5rem ;
+    position: absolute ;
+    left: -2rem ;
+    top: -0.7rem ;
+}
+
+
+@media screen and (max-width: 640px){
+    .about .top-row{
         flex-direction: column ;
     }
   
@@ -130,11 +166,15 @@
         order: 1 ;
     }
 
-    .bottom-row{
+    .second-row{
         margin: 0 0 5rem 0 ;
     }
 
-    .about .bottom-row .skills-left{
+    .skills{
+        margin-bottom: -4.5rem ;
+    }
+
+    .about .second-row .skills-left{
         margin-bottom: 40px ;
     }
   
@@ -144,6 +184,14 @@
         align-items: center ;
         justify-content: center ;
         order: 2 ;
+    }
+
+    .skills h1{
+        margin-bottom: 2rem ;
+    }
+
+    .skills-heading{
+        margin-right: 6rem ;
     }
   
     .skills-left .skills-left-p, .skills-right .skills-right-p{
@@ -157,12 +205,15 @@
 
     .skills-right .skills-right-p{
         width: 100% ;
-        margin-top: 30% ;
         padding: 0.5rem ;
     }
 
     .skills-left-p, .skills-right-p{
         left: 20% ;
-        max-width: 250px;
+        max-width: 250px ;
+    }
+
+    .hobbies-content ul{
+        margin-left: 5rem ;
     }
 }

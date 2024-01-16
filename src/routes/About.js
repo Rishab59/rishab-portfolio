@@ -11,7 +11,7 @@ const About = () => {
   return (
     <div>
       <Navbar />
-      <HeroImg2 header = "About Me." subcontent = "Here are some info about me and my skills." />
+      <HeroImg2 header = "About Me." subcontent = "Here are some info about me like skills and hobbies." />
       <AboutContent />
       <Footer />
     </div>

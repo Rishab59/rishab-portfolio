@@ -60,19 +60,19 @@ const Footer = () => {
                     </p>
                     <div className = "social" >
                         <NavLink to = "https://www.linkedin.com/in/rishab-h-656b97224/" target = "_blank" >
-                            <FaLinkedin size = { 30 } style = {{ color: "#fff", marginRight: "2rem" }} />
+                            <FaLinkedin size = { 30 } style = {{ color: "#fff" }} />
                         </NavLink>
 
                         <NavLink to = "https://www.github.com/Rishab59" target = "_blank" >
-                            <FiGithub size = { 30 } style = {{ color: "#fff", marginRight: "2rem" }} />
+                            <FiGithub size = { 30 } style = {{ color: "#fff" }} />
                         </NavLink>
 
                         <NavLink to = "https://www.hackerrank.com/profile/hrishab59" target = "_blank" >
-                            <SiHackerrank size = { 30 } style = {{ color: "#fff", marginRight: "2rem" }} />
+                            <SiHackerrank size = { 30 } style = {{ color: "#fff" }} />
                         </NavLink>
 
                         <NavLink to = "https://instagram.com/ris59_2k3?igshid=ZDc4ODBmNjlmNQ==" target = "_blank" >
-                            <FaInstagram size = { 30 } style = {{ color: "#fff", marginRight: "2rem" }} />
+                            <FaInstagram size = { 30 } style = {{ color: "#fff" }} />
                         </NavLink>
                     </div>
                 </div>
