@@ -1,6 +1,6 @@
 import "./WorkCardStyles.css" ;
 
-import React from 'react' ;
+import React from "react" ;
 import { NavLink } from "react-router-dom" ;
 
 
@@ -8,7 +8,7 @@ const WorkCard = (props) => {
     const renderButtons = () => {
         if ( !props.liveoutput ) {
             return(
-                <div className = "pro-btns" style = {{ left: "36%", width: "48%", transform: 'translateX(-15%)' }} >
+                <div className = "pro-btns" style = {{ left: "36%", width: "48%", transform: "translateX(-15%)" }} >
                     <NavLink to = { props.sourcecode } target = "_blank" className = "btn" >Source Code</NavLink>
                 </div>
             ) ;

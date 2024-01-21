@@ -23,7 +23,6 @@ const HeroImg = () => {
   const [ isDeleting, setIsDeleting ] = useState(false) ;
   const typingSpeed = 100 ;
   const delayAfterTyping = 1000 ;
-  const pTagHeight = 10 ;
 
   useEffect( () => {
     const type = () => {
@@ -68,7 +67,7 @@ const HeroImg = () => {
           </NavLink>
         </h1>
 
-        <p style = {{ height: `${pTagHeight}px` }} >
+        <p style = {{ height: "10px" }} >
           { text }
         </p>
 

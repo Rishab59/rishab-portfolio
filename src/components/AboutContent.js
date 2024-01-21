@@ -12,7 +12,10 @@ const AboutContent = () => {
     const StarGenerator = ({ count }) => {
         return(
             Array.from({ length:  count }, (_, index) => (
-                <FaStar style = {{ color: "gold" }}/>
+                <>
+                    <FaStar style = {{ color: "gold" }} />
+                    &nbsp;
+                </>
             ))
         ) ;
     } ;
@@ -20,7 +23,9 @@ const AboutContent = () => {
     const SpaceGenerator = ({ count }) => {
         return(
             Array.from({ length:  count }, (_, index) => (
-                <>&nbsp;</>
+                <>
+                    &nbsp;
+                </>
             ))
         ) ;
     } ;
@@ -159,10 +164,10 @@ const AboutContent = () => {
                             Reading Tech related contents.
                         </li>
                         <li>
-                            Learning New Technologies.
+                            Watching YouTube Tech Playlist.
                         </li>
                         <li>
-                            Watching YouTube Tech Playlist.
+                            Learning New Technologies.
                         </li>
                         <li>
                             Listening to Music.

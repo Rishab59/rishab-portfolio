@@ -3,9 +3,10 @@ import "./FooterStyles.css" ;
 import React from "react" ;
 import { NavLink } from "react-router-dom" ;
 
-import { FaHome, FaPhone, FaMailBulk, FaMailchimp, FaLinkedin, FaInstagram } from "react-icons/fa" ;
+import { FaHome, FaPhone, FaMailBulk, FaMailchimp, FaLinkedin, FaInstagram, FaWhatsapp } from "react-icons/fa" ;
 import { FiGithub } from "react-icons/fi" ;
 import { SiHackerrank } from "react-icons/si" ;
+
 
 const Footer = () => {
     return (
@@ -58,6 +59,7 @@ const Footer = () => {
                     <p className = "content" >
                         I'm passionate about learning and implementing projects related to Web Development.
                     </p>
+
                     <div className = "social" >
                         <NavLink to = "https://www.linkedin.com/in/rishab-h-656b97224/" target = "_blank" >
                             <FaLinkedin size = { 30 } style = {{ color: "#fff" }} />
@@ -69,6 +71,10 @@ const Footer = () => {
 
                         <NavLink to = "https://www.hackerrank.com/profile/hrishab59" target = "_blank" >
                             <SiHackerrank size = { 30 } style = {{ color: "#fff" }} />
+                        </NavLink>
+
+                        <NavLink to = "https://wa.me/7200076122?text=Hey%20Rishab,%20I'm%20interested%20to%20collaborate%20with%20you." target = "_blank" >
+                            <FaWhatsapp size = { 30 } style = {{ color: "#fff" }} />
                         </NavLink>
 
                         <NavLink to = "https://instagram.com/ris59_2k3?igshid=ZDc4ODBmNjlmNQ==" target = "_blank" >

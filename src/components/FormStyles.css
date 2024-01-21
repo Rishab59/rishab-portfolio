@@ -1,7 +1,7 @@
 label{
     color: #fff ;
     font-size: 1.1rem ;
-    margin-bottom: 0.5rem ;
+    margin-bottom: 0.6rem ;
 }
 
 form{
@@ -23,4 +23,16 @@ form input, form textarea{
 
 form input:focus, form textarea:focus{
     outline: 1px solid rgb(248, 217, 15) ;
+}
+
+.errors{
+    color: red ;
+    font-size: 1.3rem ;
+}
+
+
+@media screen and (max-width: 640px){
+    .errors{
+        font-size: 1rem ;
+    }
 }

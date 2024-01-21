@@ -27,11 +27,11 @@ const WorkHome = () => {
                             liveoutput = { val.liveoutput }
                             sourcecode = { val.sourcecode }
                         />
-                    )
+                    ) ;
                 }) }
             </div>
         </div>
-    )
+    ) ;
 }
 
 
