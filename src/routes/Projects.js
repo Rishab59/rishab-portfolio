@@ -16,7 +16,7 @@ const Projects = () => {
       <Footer />
     </div>
   )
-}
+} ;
 
 
 export default Projects ;

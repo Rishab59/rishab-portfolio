@@ -137,6 +137,11 @@ const AboutContent = () => {
                                 GitHub
                             </p>
                             <p>
+                                Java Swing
+                                <SpaceGenerator count = { 5 } />
+                                <StarGenerator count = { 3 } />
+                            </p>
+                            <p>
                                 SQL
                                 <SpaceGenerator count = { 20 } />
                                 <StarGenerator count = { 2 } />
@@ -177,7 +182,7 @@ const AboutContent = () => {
             </div>
         </div>
     ) ;
-}
+} ;
 
 
 export default AboutContent ;

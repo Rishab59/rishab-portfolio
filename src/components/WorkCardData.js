@@ -18,6 +18,7 @@ import SuperMarketBillingSysUsingCppImg from "../assets/projects/SuperMarketBill
 import NextDateCalUsingCImg from "../assets/projects/NextDateCalculatorUsingCImage.png" ;
 import HorizontalScrollTextUsingCImg from "../assets/projects/HorizontalScrollTextUsingCImage.png" ;
 import QuizAppJSImg from "../assets/projects/QuizAppByRishabUsingJS.png" ;
+import QuizAppReactImg from "../assets/projects/QuizAppReact.png" ;
 
 
 const ProjectCardData = [
@@ -38,12 +39,12 @@ const ProjectCardData = [
         sourcecode: "https://github.com/Rishab59/NotepadUsingJava", 
     },
     {
-        imgsrc: QuizAppJSImg,
-        lang: "JS",
-        title: "Quiz App",
-        content: "This is a Quiz App Web Project developed using JS for an intercollege event.",
-        liveoutput: "https://rishab59.github.io/QuizAppByRishab/",
-        sourcecode: "https://github.com/Rishab59/QuizAppByRishab", 
+        imgsrc: QuizAppReactImg,
+        lang: "ReactJS",
+        title: "Quiz App using React JS",
+        content: "This is a hobbby Quiz App Web Project developed using React JS.",
+        liveoutput: "https://quiz-app-rishab.netlify.app/",
+        sourcecode: "https://github.com/Rishab59/quiz-app-react", 
     },
     {
         imgsrc: MusicPlayerImg,
@@ -68,6 +69,14 @@ const ProjectCardData = [
         content: "This is a 2048 Game Hobby Project developed using JavaScript.",
         liveoutput: "https://rishab59.github.io/2048game_using_JS/Source_Code/2048.html",
         sourcecode: "https://github.com/Rishab59/2048game_using_JS", 
+    },
+    {
+        imgsrc: QuizAppJSImg,
+        lang: "JS",
+        title: "Quiz App",
+        content: "This is a Quiz App Web Project developed using JS for an intercollege event.",
+        liveoutput: "https://rishab59.github.io/QuizAppByRishab/",
+        sourcecode: "https://github.com/Rishab59/QuizAppByRishab", 
     },
     {
         imgsrc: SnakeGameImg,

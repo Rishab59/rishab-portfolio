@@ -32,7 +32,7 @@ const WorkHome = () => {
             </div>
         </div>
     ) ;
-}
+} ;
 
 
 export default WorkHome ;
