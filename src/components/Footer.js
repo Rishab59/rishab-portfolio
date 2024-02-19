@@ -48,7 +48,7 @@ const Footer = () => {
 
                     <p className = "content" >
                         I'm&nbsp;
-                        <NavLink to = "https://www.linkedin.com/in/rishab-h-656b97224/" target = "_blank" className = "links" >
+                        <NavLink to = "https://www.linkedin.com/in/hrishab59/" target = "_blank" className = "links" >
                             Rishab.H
                         </NavLink>
                         , current pursing my BE-CSE degree in <br /><NavLink to = "https://panimalar.ac.in/" className = "links" target = "_blank" >Panimalar Engineering College</NavLink>, Chennai.
@@ -61,7 +61,7 @@ const Footer = () => {
                     </p>
 
                     <div className = "social" >
-                        <NavLink to = "https://www.linkedin.com/in/rishab-h-656b97224/" target = "_blank" >
+                        <NavLink to = "https://www.linkedin.com/in/hrishab59/" target = "_blank" >
                             <FaLinkedin size = { 30 } style = {{ color: "#fff" }} />
                         </NavLink>
 
@@ -88,10 +88,16 @@ const Footer = () => {
                 <div className = "info">
                     <p>
                         This site is developed by&nbsp;
-                        <NavLink to = "https://www.linkedin.com/in/rishab-h-656b97224/" target = "_blank" className = "links" >
+                        <NavLink to = "https://www.linkedin.com/in/hrishab59/" target = "_blank" className = "links" >
                             Rishab.H
                         </NavLink>
                         &nbsp;using React JS
+                        <br />
+                        <br />
+                        For this Site Source Code Refer my&nbsp;
+                        <NavLink to = "https://www.github.com/Rishab59" target = "_blank" className = "links" >
+                            Github Account
+                        </NavLink>
                     </p>
                 </div>
             </div>

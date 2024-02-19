@@ -78,7 +78,7 @@ const AboutContent = () => {
                             <p>
                                 HTML
                                 <SpaceGenerator count = { 18 } />
-                                <StarGenerator count = { 5 } />
+                                <StarGenerator count = { 4 } />
                             </p>
                             <p>
                                 CSS
@@ -127,7 +127,7 @@ const AboutContent = () => {
                             <p>
                                 Django
                                 <SpaceGenerator count = { 13 } />
-                                <StarGenerator count = { 3 } />
+                                <StarGenerator count = { 4 } />
                             </p>
                             <p>
                                 Git &
