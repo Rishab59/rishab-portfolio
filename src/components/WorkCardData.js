@@ -19,6 +19,7 @@ import NextDateCalUsingCImg from "../assets/projects/NextDateCalculatorUsingCIma
 import HorizontalScrollTextUsingCImg from "../assets/projects/HorizontalScrollTextUsingCImage.png" ;
 import QuizAppJSImg from "../assets/projects/QuizAppByRishabUsingJS.png" ;
 import QuizAppReactImg from "../assets/projects/QuizAppReact.png" ;
+import FirebaseSocialMediaProImg from "../assets/projects/firebase-social-media-project-react-img.png" ;
 
 
 const ProjectCardData = [
@@ -45,6 +46,14 @@ const ProjectCardData = [
         content: "This is a hobbby Quiz App Web Project developed using React JS.",
         liveoutput: "https://quiz-app-rishab.netlify.app/",
         sourcecode: "https://github.com/Rishab59/quiz-app-react", 
+    },
+    {
+        imgsrc: FirebaseSocialMediaProImg,
+        lang: "ReactJS",
+        title: "Firebase Social Media",
+        content: "This is a social media Web Project developed using React JS, TypeScript, Firebase.",
+        liveoutput: "",
+        sourcecode: "https://github.com/Rishab59/firebase-social-media-project-react", 
     },
     {
         imgsrc: MusicPlayerImg,
