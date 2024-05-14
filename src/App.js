@@ -10,8 +10,9 @@ import Contact from "./routes/Contact" ;
 
 import { inject } from "@vercel/analytics" ;
 
+
 function App() {
-  inject();
+  inject() ;
   return (
     <div>
       <Routes>
