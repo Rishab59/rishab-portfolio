@@ -8,8 +8,10 @@ import Projects from "./routes/Projects" ;
 import About from "./routes/About" ;
 import Contact from "./routes/Contact" ;
 
+import { inject } from "@vercel/analytics" ;
 
 function App() {
+  inject();
   return (
     <div>
       <Routes>
